@@ -27,7 +27,7 @@ public class Pokemon implements Serializable{
 	private String nome;
 	
 	@Column
-	private int valueEffort;
+	private String valueEffort;
 	
 	public long getId() {
 		return id;
@@ -53,14 +53,14 @@ public class Pokemon implements Serializable{
 		this.nome = nome;
 	}
 	
-	public int getValueEffort() {
+	public String getValueEffort() {
 		return valueEffort;
 	}
-	
-	public void setValueEffort(int valueEffort) {
+
+	public void setValueEffort(String valueEffort) {
 		this.valueEffort = valueEffort;
 	}
-	
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id, nome, numero, valueEffort);

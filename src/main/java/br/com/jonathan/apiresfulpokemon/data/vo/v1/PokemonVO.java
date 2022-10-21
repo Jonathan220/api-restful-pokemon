@@ -10,7 +10,7 @@ public class PokemonVO implements Serializable{
 	private long id;
 	private int numero;
 	private String nome;	
-	private int valueEffort;
+	private String valueEffort;
 	
 	public long getId() {
 		return id;
@@ -36,11 +36,11 @@ public class PokemonVO implements Serializable{
 		this.nome = nome;
 	}
 	
-	public int getValueEffort() {
+	public String getValueEffort() {
 		return valueEffort;
 	}
-	
-	public void setValueEffort(int valueEffort) {
+
+	public void setValueEffort(String valueEffort) {
 		this.valueEffort = valueEffort;
 	}
 
