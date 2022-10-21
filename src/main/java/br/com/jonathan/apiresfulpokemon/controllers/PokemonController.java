@@ -22,7 +22,7 @@ import br.com.jonathan.apiresfulpokemon.data.vo.v1.PokemonVO;
 import br.com.jonathan.apiresfulpokemon.services.PokemonService;
 
 @RestController
-@RequestMapping(value = "/pokemon/api/v1")
+@RequestMapping(value = "/api/pokemon/v1")
 public class PokemonController {
 	
 	@Autowired
